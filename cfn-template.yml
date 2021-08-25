@@ -54,6 +54,3 @@ Outputs:
       - http://${PublicAddress}
       - PublicAddress: !GetAtt WebServerHost.PublicDnsName
     Description: Roman Numerals Converter Application URL
-
-
-    ec2-instance
